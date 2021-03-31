@@ -1,0 +1,35 @@
+body {
+  box-sizing: border-box;
+}
+span {
+  display: block;
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+.card {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  width: 350px;
+  height: 225px;
+}
+.card__pp {
+  border-radius: 50%;
+}
+.card__name-and-status {
+  display: inline-block; /* Check on what to set display to later*/
+}
+.card--name-font {
+  color: white;
+}
+.card--status-text-style {
+  color: hsl(300, 24%, 96%)
+}
