@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
 body {
   box-sizing: border-box;
+  font-size: 15px;
+  font-family: Spartan, Helvetica, sans-serif
 }
 span {
   display: block;
 }
-
 
 .attribution {
   font-size: 11px;
@@ -14,12 +17,38 @@ span {
   color: hsl(228, 45%, 44%);
 }
 
+.social-proof-section {
+  margin: 6% 5%;
+}
+
+.container1 {
+  display: flex;
+}
+
+.message{
+  width: 360px;
+  height: 300px;
+}
+.message__header {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+}
+.message__detail {
+  color: hsl(303, 10%, 53%)
+}
+
+.ratings {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+}
 
 .card {
   background-color: hsl(300, 43%, 22%);
   border-radius: 10px;
   width: 350px;
   height: 225px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
 }
 .card__pp {
   border-radius: 50%;
@@ -31,5 +60,5 @@ span {
   color: white;
 }
 .card--status-text-style {
-  color: hsl(300, 24%, 96%)
+  color: hsl(333, 80%, 67%)
 }
